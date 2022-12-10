@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Iv0O1ecUkMwa5iJP
 
-const uri = 'mongodb+srv://admin1:Iv0O1ecUkMwa5iJP@cluster0.1rljf5u.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://safrian:Y0EWTkdW0JWMgaEG@cluster0.1rljf5u.mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
